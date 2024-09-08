@@ -1,0 +1,48 @@
+body {
+    overflow-y: auto;
+}
+
+.btn {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+h1, p {
+    margin: 8px 2px;
+}
+
+h1 {
+    font-size: 20px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 18px;
+    margin: 0 0;
+}
+
+h3 {
+    font-size: 16px;
+    margin: 0 0;
+}
+
+p {
+    font-size: 13px;
+    line-height: 17px;
+}
+
+.treatment {
+    font-size: 14px;
+    margin: 0 0;
+}
+
+.l-div {
+    border-radius: 6px;
+    background-color: var(--secondary);
+    display: block;
+    box-sizing: border-box;
+    transform: translateX(-6px);
+    width: 100%;
+    padding: 4px 8px;
+    margin: 6px;
+}

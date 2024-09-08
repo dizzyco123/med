@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Asap:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --primary: #ffffff;
+    --primary-dark: #f0f2f5;
+    --secondary: #d8dee3;
+    --secondary-dark: #c8d1db;
+    --accent: #596796;
+    --text: #272a32;
+    --font: 'Arimo';
+    font-family: var(--font), system-ui, Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+    color: var(--text);
+}
+
+body {
+    background-color: var(--primary);
+    padding: 8px 8px;
+}
+
+.btn {
+    border-radius: 6px;
+    border-style: none;
+    text-shadow: 2px;
+    font-size: 14px;
+    font-weight: normal;
+    background-color: var(--secondary);
+    color: var(--text);
+    padding: 6px 6px;
+}
+
+.btn:hover {
+    background-color: var(--secondary-dark);
+    transition: all 100ms;
+}
+
+/* Icons */
+.fa-solid {
+    font-size: 13px;
+    color: var(--accent);
+}
