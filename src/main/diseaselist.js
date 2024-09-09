@@ -28,6 +28,10 @@ var mainWindowInfo = {
 
 app.whenReady().then(() => {
   mainWindow = new BrowserWindow(mainWindowInfo);
+  mainWindow.webContents.setWindowOpenHandler(({ url }) => {
+    shell.openExternal(url);
+    return { action: 'deny' };
+  });
   createWindow(mainWindow, "pages", "diseaselist.html");
 
   app.on('activate', () => {

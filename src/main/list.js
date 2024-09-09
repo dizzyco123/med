@@ -4,8 +4,8 @@ const obj = [
       "icon": "fa-solid fa-disease",
       "items": [
         {
-            "name": "Cancer",
-            "htm": "template.html"
+            "name": "Bladder Cancer",
+            "htm": "bladder-cancer.html"
         }
       ]
     },
